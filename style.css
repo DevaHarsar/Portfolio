@@ -467,6 +467,7 @@ form btn2
    
     .work img{
         justify-content: center;
+      
         width: 200px;;
         height: 30px;
 
@@ -481,7 +482,7 @@ form btn2
     }
 form input,form textarea
 {
-    width: 2150%;
+    width: 200%;
     border:0;
     outline: none;
     background: #262626 ;
@@ -798,6 +799,310 @@ form .btn2{
 }
 form .btn2{
    width: fit-content;
+}
+
+
+} 
+
+@media only screen and ((min-width: 700px)and (max-width:900px)) {
+    body{
+        page-orientation: portrait;
+    }
+    #header
+    {   background-image: url(images/black.background.jpg);
+        background-color: #080808;
+        height: fit-content;
+        
+    }
+
+    #header .logo
+    {
+      height: fit-content;
+      width: 141px;
+      tab-size: 10px;
+     
+    }
+    #header h1{
+        font-size: 50px;
+    }
+    #header nav ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sidemenu
+    {
+        display: flex;
+         font-size: large;
+         flex-wrap: wrap;
+         justify-content: start;
+    }
+    
+    .logo
+    {
+        width: 240px;
+        
+    }
+    nav ul li{
+       display: inline-flex; 
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a
+    {
+       color: #fff;
+       text-decoration: none;
+       font-size: 18px;
+       position: relative;
+    }
+    nav ul li a::after
+    {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    
+    }
+    nav ul li a:hover::after
+    {
+        width: 100%;
+    }
+
+     
+    #about 
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    #about .about-col-2 p{
+        display: none;
+        
+    }
+    #about h1
+    {
+        font-size: medium;
+    }
+    #about .about-col-2 span{
+        text-align: justify;
+        width: 120%;
+        font-size: medium;
+    }
+    #about .about-col-1 img{
+        justify-content: start;
+         
+        size: 45px;
+        
+    }
+    #about .about-col-2 p3{
+        display: block;
+        font-size: 10px;
+        text-align: justify;
+        width: 100%;
+        
+    }
+    #about .about-col-2 p1{
+        font-size: 20px;
+        width: 120%;
+        
+        
+    } 
+    #portfolio
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+   
+    .work img{
+        justify-content: center;
+        width: 400px;;
+        height: 350px;
+       margin-left: 80px;
+        flex-wrap: wrap;
+
+    }
+    #contact 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    form input,form textarea
+{
+    width: 100%;
+    border:0;
+    outline: none;
+    background: #262626 ;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: large;
+    border-radius: 6px;
+
+}
+form .btn2{
+   width: fit-content;
+   margin-left: 55px;
+}
+
+
+}
+
+@media only screen and ((min-width: 100px)and (max-width:479px)) {
+    
+    #header
+    {   background-image: url(images/black.background.jpg);
+        background-color: #080808;
+        height: fit-content;
+        
+    }
+
+    #header .logo
+    {
+      height: fit-content;
+      width: 141px;
+      tab-size: 10px;
+     
+    }
+    #header h1{
+        font-size: 50px;
+    }
+    #header nav ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sidemenu
+    {
+        display: flex;
+         font-size: large;
+         flex-wrap: wrap;
+         justify-content: start;
+    }
+    
+    .logo
+    {
+        width: 240px;
+        
+    }
+    nav ul li{
+       display: inline-flex; 
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a
+    {
+       color: #fff;
+       text-decoration: none;
+       font-size: 18px;
+       position: relative;
+    }
+    nav ul li a::after
+    {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    
+    }
+    nav ul li a:hover::after
+    {
+        width: 100%;
+    }
+
+     
+    #about 
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    #about .about-col-2 p{
+        display: none;
+        
+    }
+    #about h1
+    {
+        font-size: medium;
+    }
+    #about .about-col-2 span{
+        text-align: justify;
+        width: 120%;
+        font-size: medium;
+    }
+    #about .about-col-1 img{
+        justify-content: start;
+         
+        size: 45px;
+        
+    }
+    #about .about-col-2 p3{
+        display: block;
+        font-size: 10px;
+        text-align: justify;
+        width: 100%;
+        
+    }
+    #about .about-col-2 p1{
+        font-size: 20px;
+        width: 120%;
+        
+        
+    } 
+    #portfolio
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+   
+    .work img{
+        justify-content: center;
+        width: 400px;;
+        height: 350px;
+       
+        flex-wrap: wrap;
+
+    }
+    #contact 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    form input,form textarea
+{
+    width: 150%;
+    border:0;
+    outline: none;
+    background: #262626 ;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: large;
+    border-radius: 6px;
+
+}
+form .btn2{
+   width: fit-content;
+   margin-left: 55px;
 }
 
 
