@@ -494,7 +494,7 @@ form .btn2{
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
     body{
         page-orientation: portrait;
     }
