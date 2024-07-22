@@ -197,7 +197,7 @@ nav ul li a:hover::after
 
 } 
 .wrk img{
-    width: 100px;
+    
     border-radius: 10px ;
     display: block;
     transition: transform 0.5s;
@@ -1106,4 +1106,29 @@ form .btn2{
 }
 
 
+}
+
+@media only screen and ((min-width: 1002px)) {
+    
+    
+    #portfolio
+    {
+        display: flex;
+      
+        justify-content: space-between;
+        
+    }
+   .work-list{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .work img{
+      
+        width: 500px;
+        height: 400px;
+       flex-basis: 30%;
+       flex-wrap: wrap;
+       
+
+    }
 }
